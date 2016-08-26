@@ -1,0 +1,6 @@
+Hostname=pcrf1.sayan1.net
+Realm=sayan1.net
+Host-IP=10.102.163.134
+Product-Name=PerlPCRF
+DWR_enabled=YES
+DWR_interval=10

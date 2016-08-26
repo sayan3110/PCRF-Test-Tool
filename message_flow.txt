@@ -1,0 +1,12 @@
+####Define Message Flow below this line####
+CER
+CEA|response_code=2001
+CCR
+CCA|response_code=2001|charging_rule_install=policy gold|index=1
+SLEEP|time=10
+RARU|charging_rule_remove=policy gold|charging_rule_install=policy silver|index=1
+RAAU
+SLEEP|time=10
+RART|index=1
+SLEEP|time=20
+####End of Message Sequence####
